@@ -172,7 +172,7 @@ with col1:
                     else 1)
   
   age = st.number_input(
-    "Age", 
+    "Age", jouls
     min_value=18,
     max_value=100,
     value=int(selected_customer['Age']))
@@ -253,7 +253,7 @@ def generate_email(probability, input_dict, surname, explanation):
   print("\n\nEMAIL PROMPT", prompt)
 
 
-  return raw_response.choices[0].message.content
+  return raw_response.choices[0].message.content! = print
 
 
 
